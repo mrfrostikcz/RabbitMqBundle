@@ -293,7 +293,7 @@ class BatchConsumer extends BaseAmqp implements DequeuerInterface
         return isset($this->messages[$deliveryTag])
             ? $this->messages[$deliveryTag]
             : null
-            ;
+        ;
     }
 
     /**
